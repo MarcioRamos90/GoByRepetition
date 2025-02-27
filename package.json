@@ -2,6 +2,12 @@
   "name": "go-learning",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "GoLang",
+    "learning",
+    "spaced repetition",
+    "landing page"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

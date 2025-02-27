@@ -7,11 +7,6 @@ const Footer: React.FC = () => {
       <p className="text-sm">
         &copy; {new Date().getFullYear()} GoLang Learning. All rights reserved.
       </p>
-      <div className="ml-4">
-        <a href="/privacy" className="text-sm hover:underline">Privacy Policy</a>
-        <span className="mx-2">|</span>
-        <a href="/terms" className="text-sm hover:underline">Terms of Service</a>
-      </div>
     </footer>
   );
 };

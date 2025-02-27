@@ -1,4 +1,5 @@
-// filepath: /go-learning-landing/go-learning-landing/src/components/common/Button.tsx
+"use client"
+
 import React from 'react';
 
 interface ButtonProps {
