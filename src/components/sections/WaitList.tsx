@@ -1,5 +1,6 @@
 "use client"
 
+import { subscribeUser } from '@/services/subscriptionService';
 import React, { useState } from 'react';
 
 const Pricing = () => {
@@ -7,7 +8,7 @@ const Pricing = () => {
 
   const handleSubmit = () => (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(`Subscription request, email: ${email}`);
+    subscribeUser({ email})
   };
 
   const Subscribe = ({ price, description }: {
