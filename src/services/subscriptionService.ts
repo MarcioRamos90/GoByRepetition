@@ -6,7 +6,7 @@ interface SubscriptionData {
 
 export async function subscribeUser(data: SubscriptionData) {
   try {
-    const response = await fetch('http://localhost:8080/api/wishlist', {
+    const response = await fetch('https://golearnserver-801239816630.us-central1.run.app/api/wishlist', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
